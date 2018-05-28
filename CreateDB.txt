@@ -1,0 +1,13 @@
+CREATE TABLE [dbo].[Users]
+(
+	[UserId] [int] IDENTITY(1,1) NOT NULL,
+	[UserName] [varchar](255) NULL,
+	[Password] [varchar](255) NULL,
+	CONSTRAINT [PK__User] PRIMARY KEY CLUSTERED([UserId] ASC)
+) 
+
+
+Insert Into Users(UserName,[Password]) Values('Aydin Mir Mohammadi','MirMohammadi');
+Insert Into Users(UserName,[Password]) Values('Heiner Wolf','Wolf');
+Insert Into Users(UserName,[Password]) Values('Lars Kaufmann','Kaufmann');
+Insert Into Users(UserName,[Password]) Values('AA','bb');
